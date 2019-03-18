@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>File Field</title>
+	<link rel="Favicon icon" href="favicon (1).ico" type="image/x-icon"><link rel="icon" href="favicon (1).ico" type="image/x-icon"></head>
+<body background="images.jpg">
+	<div style=";margin:30px;padding: 10px;background:#fbf6fe;border:5px solid black;">
+		<h1> Dasar HTML5 dan Penerapannya </h1>
+		<h2> 1. File Field </h2>
+			<p><div style="text-align:justify;">
+				Komponen file field sering digunakan untuk keperluan upload file keserver. Secara sekilas, penampilan komponen ini seperti text box namun terdapat tombol untuk melakukan browse file yang akan dipilih. Berikut contoh penggunaan file filed 
+			</p>
+		<h2> 2. Script </h2>
+		<div style=";margin:30px;padding: 10px;;background:#dfe2e1;border:3px dotted black;">
+		<code>
+&lt;h3> Upload File&lt;/h3><hr/>
+&lt;form action="" method="post"<hr/> enctype="multipart/form-data"><hr/>
+&lt;input type="file" name="fileku"/><hr/>
+&lt;input type="submit" name ="submit" <hr/>value="Kirim Data" /><hr/>
+&lt;/form>
+		</code>
+		</div>
+		<h2> 3. Output </h2>
+		<div style=";margin:30px;padding: 10px;;background:#dfe2e1;border:3px dotted black;">
+			<h3> Upload File</h3>
+			<form action="" method="post" enctype="multipart/form-data">
+				<input type="file" name="fileku"/>
+				<input type="submit" name ="submit" value="Kirim Data" />
+			</form>
+		</div>
+		<h2> 4. Kesimpulan </h2>
+			<p><div style="text-align:justify;">
+				Untuk membuat komponen ini , tag yang diperlukan adalah: &lt;input type="file" name ="namakomponen">. Selain itu tambahkan attribut enctype="multipart/form-data" pada tag &lt;form method="post" action="action.script"
+			</p>
+	<button onclick="window.location.href='index.html'">Kembali</button>
+	</div>
+</body>
+</html>

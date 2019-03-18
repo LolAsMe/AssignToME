@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Margin Cell</title>
+	<link rel="Favicon icon" href="favicon (1).ico" type="image/x-icon"><link rel="icon" href="favicon (1).ico" type="image/x-icon"></head>
+<body background="images.jpg">
+	<div style=";margin:30px;padding: 10px;background:#fbf6fe;border:5px solid black;">
+		<h1> Dasar HTML5 dan Penerapannya </h1>
+		<h2> 1. Pendahuluan </h2>
+			<p><div style="text-align:justify;">
+				Untuk menampilkan tabel, kadang kita butuh membuat tabel dengan jumlah tabel dengan jumlah kolom yang berbeda antara baris pertama dan baris lainnya, atau menggabungkan sebuah sel tabel dengan sel lainnya. Maka dari itu HTML menyediakan atribut rowspan dan cospan. Atribut rowspan dan colspan digunakan untuk membuat sel tabe ' bersatu ' dengan sel yang lain. atribut ini diletakkan pada tag td dari sebuah tabel. Agar mudah dipahami, maka langsung saja lihat scrip HTML dibawah.
+			</p>
+		<h2> 2. Script </h2>
+		<xmp>
+<h1 align="center"> Harga Buah </h1>
+<table border="2" align="center" width="40%">
+	<tr bgcolor="#b2dfdb">
+		<td> Baris 1, Kolom 1</td>
+		<td> Baris 1, Kolom 2</td>
+		<td> Baris 1, Kolom 3</td>
+	</tr>
+	<tr>
+		<td> Baris 2, Kolom 1</td>
+		<td colspan="2"> Baris 2, Kolom 2 dan 3 digabung </td>
+	</tr>
+	<tr>
+		<td> Baris 3, Kolom 1</td>
+		<td> Baris 3, Kolom 2</td>
+		<td> Baris 3, Kolom 3</td>
+	</tr>
+</table>
+		</xmp>
+		</div>
+		<h2> 3. Output </h2>
+		<div style=";margin:30px;padding: 10px;border:3px dotted black;">
+			<h3 align="center"> Harga Buah </h3>
+			<table border="2" align="center" width="40%">
+				<tr bgcolor="#b2dfdb">
+					<td rowspan="2"> Baris 1, Kolom 1 dan Baris 2, Kolom 1</td>
+					<td> Baris 1, Kolom 2 </td>
+					<td> Baris 1, Kolom 3</td>
+				</tr>
+				<tr>
+					<td colspan="2"> Baris 2, Kolom 2 dan 3 digabung </td>
+				</tr>
+				<tr>
+					<td> Baris 3, Kolom 1</td>
+					<td> Baris 3, Kolom 2</td>
+					<td> Baris 3, Kolom 3</td>
+				</tr>
+			</table>
+		</div>
+		<h2> 4. Kesimpulan </h2>
+			<p><div style="text-align:justify;">
+				Dalam contoh diatas, kita dapat melihat bahwa tag td yang memiliki atribut colspan, akan membuat sel tabel bersatu dengan kolom disebelahnya. Sedangkan atrribut rowspan akan membuat sel tabel bersatu dengan  baris dibawahnya. Kedua atribut ini membutuhkan nilai(value)m dimana nilai ini adalah seberapa banyak sel tabel yang bersatu,
+			</p>
+	<button onclick="window.location.href='index.html'">Kembali</button>
+	</div>
+</body>
+</html>
